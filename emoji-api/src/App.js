@@ -1,10 +1,10 @@
 import "./App.css";
-import Search  from "./components/search/search";
+import Emoji from "./components/emoji/test";
 
 function App() {
   return (
     <div className="App">
-      <Search />
+      <Emoji />
     </div>
   );
 }
