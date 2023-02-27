@@ -1,5 +1,6 @@
-export const data = [
+export const Data = [
   {
+    id:"1",
     title: "100",
     symbol: "💯",
     keywords:
