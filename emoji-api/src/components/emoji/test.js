@@ -14,13 +14,15 @@ function Emoji() {
 
   return (
     <div>
-      <h1>Emoji Search</h1>
-      <input
-        type="text"
-        placeholder="search"
-        onChange={(e) => setSearch(e.target.value)}
-        value={search}
-      />
+      <div className="input">
+        <h1>Emoji Search</h1>
+        <input
+          type="text"
+          placeholder="search"
+          onChange={(e) => setSearch(e.target.value)}
+          value={search}
+        />
+      </div>
       {data.map((emoji) => (
         <h2 key={emoji.title}>
           {emoji.title} {emoji.symbol}
